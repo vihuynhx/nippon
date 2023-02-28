@@ -24,3 +24,20 @@ p{
     line-height: 35px;
 
 }
+
+.omosflex{
+    display: flex;
+}
+
+.omosflex h2, p{
+    text-align: center;
+    margin: 20px;
+}
+
+.omosflex div{
+    width: 50%;
+}
+
+#gulerødder{
+width: 100%;
+}
