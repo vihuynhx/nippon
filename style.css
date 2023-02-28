@@ -30,8 +30,10 @@ header img /*LOGO*/
 
 .flexcontainerheader div
 {
-   
+   justify-content: center;
 }
+
+
 header nav a, .dropdownbutton nav a
 {
 
@@ -112,6 +114,5 @@ header nav a, .dropdownbutton nav a
 
     #food
     {
-        margin-top: 1vh;
-        width: 100%;
+        background-image: url(images/background.png);
     }
