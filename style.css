@@ -1,6 +1,5 @@
 *
 {
-    background-color: white;
     margin: 0;
     padding: 0;
 }
@@ -112,7 +111,23 @@ header nav a, .dropdownbutton nav a
 
     /*---------------MAIN--------------------------------------------------------------- */
 
-    #food
+    .firstsection
     {
-        background-image: url(images/background.png);
+        position: relative;
     }
+    .firstsection img
+    {
+        width: 100%;
+    }
+
+    .firstsection h1
+    {
+        position: absolute;
+        font-family: 'Courier New', Courier, monospace;
+        top:40%;
+        left: 40%;
+        text-align: center;
+        color: purple;
+    }
+
+
