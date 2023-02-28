@@ -6,79 +6,112 @@
 }
 
 /*---------------HEADER--------------------------------------------------------------- */
-header
-{  
-  padding-bottom:40px;
-}
 
+header 
+{
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.3vw;
+    z-index: 1;
+}
 header img /*LOGO*/
 { 
   position: absolute;
   left: 0; 
+  width: 8%;
 }
 
-
-header nav
+.flexcontainerheader 
 {
     display: flex;
-    justify-content: space-evenly;
-    align-content: center;
+}
+
+.flexcontainerheader div
+{
+   
 }
 header nav a, .dropdownbutton nav a
 {
 
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: black;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 1.2vw;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.3vw;
+}
+.headernav,   .dropdownbutton
+{
+    margin-top: 2vh;
 }
 
-
+.buttonlogin
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3vw;
+    border:2px;
+    color:black;
+    padding: 13px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #e1aec9;
+    border-radius: 20px;
+    /*    margin: 4px 2px;*/
+}
   /* ----------Dropdown------https://www.w3schools.com/howto/howto_css_dropdown.asp---- */
 
-  .dropdownbutton
-  {
-    color: black;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-transform: uppercase;
-    cursor: pointer;
-    font-size: 1.2vw;
+    .dropdownbutton
+    {
+        color: black;
+        font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+        cursor: pointer;
+        font-size: 1.3vw;
 
-  } 
-  .dropdown
-  {
-    display: inline-block;
-    text-align: center;
-  }
+    } 
+    .dropdown
+    {
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .dropdown-content
+    {
+        display: none;
+        position: absolute;
+    }
+    
+    .dropdown-content a
+    {    
+        text-decoration: none;
+        display: block;
+        font-size: 1.3vw;
+        padding: 1.4vh 1.2vh;
+    }
   
-  .dropdown-content
-  {
-    display: none;
-    position: absolute;
-    background-color:transparent;
-    background-image: linear-gradient(rgb(0 0 0/2%) 0 0);
-  }
-  
-  .dropdown-content a
-  {    
-    text-decoration: none;
-    display: block;
-    font-size: 1.3vw;
-    padding: 1.4vh 1.2vh;
-  }
-  
-  .dropdown-content a:hover
-{
-  background-image: linear-gradient(rgb(0 0 0/5%) 0 0);
-}
-  
-.dropdown:hover .dropdown-content 
-{
-  display: block; 
-}
-  
-.dropdown:hover .dropdownbutton, header nav a:hover
-{ 
-  text-decoration: underline;
-}
+    .dropdown-content a:hover
+    {
+        background-color:  #e1aec9;;
+    }
+
+    .dropdown:hover .dropdown-content 
+    {
+        display: block; 
+    }
+
+    .dropdown:hover .dropdownbutton, header nav a:hover
+    { 
+        text-decoration: underline;
+    }
+
+    /*---------------MAIN--------------------------------------------------------------- */
+
+    #food
+    {
+        margin-top: 1vh;
+        width: 100%;
+    }
