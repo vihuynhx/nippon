@@ -5,12 +5,14 @@
 }
 
 
-
     /*---------------MAIN--------------------------------------------------------------- */
 
     .firstsection
     {
+        height: 600px;
         position: relative;
+        display: flex;
+        justify-content: center;
     }
     .firstsection img
     {
@@ -20,11 +22,80 @@
     .firstsection h1
     {
         position: absolute;
-        font-family: 'Courier New', Courier, monospace;
-        top:40%;
-        left: 40%;
+        font-family: "iskra", sans-serif;
+        top:25%;
         text-align: center;
-        color: purple;
+        color: white;
+        font-size: 5vw;
+        text-transform: uppercase;
     }
+
+    .firstsection a
+    {
+        position: absolute;
+        font-family: raleway;
+        top:70%;
+        text-align: center;
+        color: black;
+        font-size: 1.3vw;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+        border: 2px;
+        border-radius: 30px;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        margin: 4px 2px; 
+        cursor: pointer;
+        background-color: white;
+    }
+
+    .infographic
+    {
+        padding-top: 3.5vh;
+        text-align: center;
+    }
+
+    .infographic h1
+    {
+        font-family: "iskra", sans-serif;
+        font-size: 3vw;
+        text-transform: uppercase;
+    }
+    .infographic h2
+    {
+        font-family: raleway;
+        font-size: 1.3vw;
+        font-weight: normal;
+        line-height: 2.8vw;
+    }
+
+    #blomst1
+    {
+        float:right;
+        position: relative;
+        top: -85vh; 
+        width: 20%;
+    }
+
+    #blomst2
+    {
+        float:left;
+        position: relative;
+        top: -30vh; 
+        width: 20%;
+        -webkit-transform: scaleX(-1);
+    }
+
+    #graphic
+    {
+        padding-top: 5vh;
+        width: 60%;
+        margin: auto;
+        padding: auto;
+        display: block;
+    }
+
 
 

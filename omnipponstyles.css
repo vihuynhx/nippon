@@ -1,0 +1,103 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/*------------------Main----------------------------*/
+
+/*øverste billede på siden*/
+#japanskkultur{
+    width: 100%;
+    height: auto;
+}
+
+.kultur img{
+    width: 100%;
+    height: auto;
+    
+}
+
+
+
+/*layout i afsnittet "det japanske køkken"*/
+h1{
+    text-align: center;
+    font-size: 3vw;
+    font-family: "iskra", sans-serif;
+    text-transform: uppercase;
+    margin: 2%;
+}
+
+.køkken p, .kultur p, .omosflex p{
+    text-align: center;
+    font-size: 1.3vw;
+    line-height: 2.8vw;
+    font-family: raleway;
+
+}
+
+.køkken p{
+    padding-bottom: 2%;
+}
+
+/*flexboksen ved "om nippon" afsnittet*/
+.omosflex{
+    display: flex;
+    background-color: #EFE8E1;
+}
+
+/*layout af teksten i "om nippon" afsnittet*/
+.omosflex h2, p{
+    text-align: center;
+}
+
+
+/*så de to flexbokse fylder 50% hver*/
+.omosflex div{
+    width: 50%;
+}
+
+/*billedet skal fylde 100% af dens boks*/
+#gulerødder, #levering{
+width: 100%;
+}
+
+#tekstboks{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding: 3%;
+}
+
+.ikonserie{
+    display: flex;
+    margin: 8%;
+}
+
+.ikonserie p{
+    font-size: 1.3vw;
+    line-height: 2.8vw;
+    font-family: raleway;
+    text-align: left;
+}
+
+h3{
+    font-size: 1.5vw;
+    line-height: 2.8vw;
+    font-family: raleway;
+    font-weight: bolder;
+}
+
+.ikonserie h3, .ikonserie p{
+    padding-left: 5%;
+}
+
+.ikontekst{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.ikonserie div img{
+    margin-top: -10%;
+}
