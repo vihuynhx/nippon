@@ -1,6 +1,5 @@
 *
 {
-    background-color: white;
     margin: 0;
     padding: 0;
 }
@@ -10,21 +9,36 @@
 /*øverste billede på siden*/
 #japanskkultur{
     width: 100%;
-    height: 600px;
+    height: auto;
 }
+
+.kultur img{
+    width: 100%;
+    height: auto;
+    
+}
+
+
 
 /*layout i afsnittet "det japanske køkken"*/
 h1{
     text-align: center;
-    font-size: 50pt;
-    margin: 40px;
+    font-size: 5vw;
+    font-family: "iskra", sans-serif;
+    text-transform: uppercase;
+    margin: 2%;
 }
 
 p{
     text-align: center;
-    font-size: 15pt;
-    line-height: 35px;
+    font-size: 1.5vw;
+    line-height: 2.5vw;
+    font-family: raleway;
 
+}
+
+.køkken{
+    height: 320px;
 }
 
 /*flexboksen ved "om nippon" afsnittet*/
@@ -36,7 +50,14 @@ p{
 /*layout af teksten i "om nippon" afsnittet*/
 .omosflex h2, p{
     text-align: center;
-    margin: 20px;
+}
+
+h2{
+    font-size: 3vw;
+    font-family: "iskra", sans-serif;
+    text-transform: uppercase;
+    margin: 2%;
+
 }
 
 /*så de to flexbokse fylder 50% hver*/
@@ -49,3 +70,8 @@ p{
 width: 100%;
 }
 
+#tekstboks{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
