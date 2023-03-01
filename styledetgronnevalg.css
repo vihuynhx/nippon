@@ -1,4 +1,5 @@
 *{
+    background-color: white;
     margin: 0;
     padding: 0;
 }
@@ -31,6 +32,7 @@ header img /*LOGO*/
 .flexcontainerheader div
 {
    justify-content: center;
+   
 }
 
 
@@ -109,3 +111,84 @@ header nav a, .dropdownbutton nav a
     { 
         text-decoration: underline;
     }
+
+    /*_________DELIVERYCONTAINER_______________________________________________________________*/
+    
+    .deliverycontainer{
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 300px;
+
+    }
+    
+    .deliverycontainer div{
+    width: 350px;
+    height: 350px;
+    text-align:center;
+    background-color:firebrick;
+    }
+    
+    .deliverycontainer div h1{
+        text-transform: uppercase;
+        font-family:'Raleway', sans-serif;
+        font-weight: 100;
+    }
+    
+    .deliverycontainer div h2{
+        font-size: 16pt;
+        font-weight: 100;
+        font-family:'Raleway', sans-serif;
+    }
+    
+    .deliverycontainer img{
+        width: 100%;
+        height: 350px;
+        background-color: #EFE8E1;
+    }
+    
+/*-HEALTHYFOODCONTAINER--*/
+.healthyfoodcontainer{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 300px;
+    font-family:'Raleway', sans-serif;
+}
+
+.healthyfoodcontainer div{
+width: 350px;
+height: 350px;
+text-align:center;
+background-color:#EFE8E1;
+}
+
+.healthyfoodcontainer div h1{
+    text-transform: uppercase;
+    font-family:'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+.healthyfoodcontainer div h2{
+    font-size: 16pt;
+    font-weight: 100;
+}
+
+.healthyfoodcontainer img{
+    width: 100%;
+    height: 350px;
+}
+
+/*VEGGIEIMAGE*/
+
+#veggieimage img{
+    width:100%;
+    height:auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#veggieimage {
+    margin-top:25px;
+    margin-bottom:100px;
+    width:1920px;    
+    height:600px;
+}
