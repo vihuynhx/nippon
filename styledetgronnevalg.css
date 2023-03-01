@@ -1,0 +1,194 @@
+*{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*---------------HEADER--------------------------------------------------------------- */
+
+header 
+{
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.3vw;
+    z-index: 1;
+}
+header img /*LOGO*/
+{ 
+    position: absolute;
+    left: 0; 
+    width: 8%;
+}
+
+.flexcontainerheader 
+{
+    display: flex;
+    width: 100%;
+}
+
+.flexcontainerheader div
+{
+   justify-content: center;
+   
+}
+
+
+header nav a, .dropdownbutton nav a
+{
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.3vw;
+}
+
+.headernav, .dropdownbutton
+{
+    margin-top: 2vh;
+}
+
+.buttonlogin
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3vw;
+    border:2px;
+    color:black;
+    padding: 13px 30px;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    cursor: pointer;
+    border-style: solid;
+    border-color: #e1aec9;
+    border-radius: 20px;
+    /*    margin: 4px 2px;*/
+}
+  /* ----------Dropdown------https://www.w3schools.com/howto/howto_css_dropdown.asp---- */
+
+    .dropdownbutton
+    {
+        color: black;
+        font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+        cursor: pointer;
+        font-size: 1.3vw;
+    } 
+
+    .dropdown
+    {
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .dropdown-content
+    {
+        display: none;
+        position: absolute;
+    }
+    
+    .dropdown-content a
+    {    
+        text-decoration: none;
+        display: block;
+        font-size: 1.3vw;
+        padding: 1.4vh 1.2vh;
+    }
+  
+    .dropdown-content a:hover
+    {
+        background-color:  #e1aec9;;
+    }
+
+    .dropdown:hover .dropdown-content 
+    {
+        display: block; 
+    }
+
+    .dropdown:hover .dropdownbutton, header nav a:hover
+    { 
+        text-decoration: underline;
+    }
+
+    /*_________DELIVERYCONTAINER_______________________________________________________________*/
+    
+    .deliverycontainer{
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 300px;
+
+    }
+    
+    .deliverycontainer div{
+    width: 350px;
+    height: 350px;
+    text-align:center;
+    background-color:firebrick;
+    }
+    
+    .deliverycontainer div h1{
+        text-transform: uppercase;
+        font-family:'Raleway', sans-serif;
+        font-weight: 100;
+    }
+    
+    .deliverycontainer div h2{
+        font-size: 16pt;
+        font-weight: 100;
+        font-family:'Raleway', sans-serif;
+    }
+    
+    .deliverycontainer img{
+        width: 100%;
+        height: 350px;
+        background-color: #EFE8E1;
+    }
+    
+/*-HEALTHYFOODCONTAINER--*/
+.healthyfoodcontainer{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 300px;
+    font-family:'Raleway', sans-serif;
+}
+
+.healthyfoodcontainer div{
+width: 350px;
+height: 350px;
+text-align:center;
+background-color:#EFE8E1;
+}
+
+.healthyfoodcontainer div h1{
+    text-transform: uppercase;
+    font-family:'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+.healthyfoodcontainer div h2{
+    font-size: 16pt;
+    font-weight: 100;
+}
+
+.healthyfoodcontainer img{
+    width: 100%;
+    height: 350px;
+}
+
+/*VEGGIEIMAGE*/
+
+#veggieimage img{
+    width:100%;
+    height:auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#veggieimage {
+    margin-top:25px;
+    margin-bottom:100px;
+    width:1920px;    
+    height:600px;
+}
