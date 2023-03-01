@@ -7,11 +7,13 @@
 
 /*------------------Main----------------------------*/
 
+/*øverste billede på siden*/
 #japanskkultur{
     width: 100%;
     height: 600px;
 }
 
+/*layout i afsnittet "det japanske køkken"*/
 h1{
     text-align: center;
     font-size: 50pt;
@@ -25,19 +27,25 @@ p{
 
 }
 
+/*flexboksen ved "om nippon" afsnittet*/
 .omosflex{
     display: flex;
+    background-color: #EFE8E1;
 }
 
+/*layout af teksten i "om nippon" afsnittet*/
 .omosflex h2, p{
     text-align: center;
     margin: 20px;
 }
 
+/*så de to flexbokse fylder 50% hver*/
 .omosflex div{
     width: 50%;
 }
 
-#gulerødder{
+/*billedet skal fylde 100% af dens boks*/
+#gulerødder, #levering{
 width: 100%;
 }
+
