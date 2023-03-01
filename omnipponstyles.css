@@ -7,7 +7,7 @@
 /*------------------Main----------------------------*/
 
 /*øverste billede på siden*/
-#japanskkultur{
+.kultur{
     width: 100%;
     height: auto;
 }
