@@ -23,16 +23,16 @@
 /*layout i afsnittet "det japanske køkken"*/
 h1{
     text-align: center;
-    font-size: 5vw;
+    font-size: 3vw;
     font-family: "iskra", sans-serif;
     text-transform: uppercase;
     margin: 2%;
 }
 
-p{
+.køkken p, .kultur p, .omosflex p{
     text-align: center;
-    font-size: 1.5vw;
-    line-height: 2.5vw;
+    font-size: 1.3vw;
+    line-height: 2.8vw;
     font-family: raleway;
 
 }
@@ -52,13 +52,6 @@ p{
     text-align: center;
 }
 
-h2{
-    font-size: 3vw;
-    font-family: "iskra", sans-serif;
-    text-transform: uppercase;
-    margin: 2%;
-
-}
 
 /*så de to flexbokse fylder 50% hver*/
 .omosflex div{
@@ -74,4 +67,37 @@ width: 100%;
     text-align: center;
     justify-content: center;
     margin: auto;
+    padding: 3%;
+}
+
+.ikonserie{
+    display: flex;
+    margin: 8%;
+}
+
+.ikonserie p{
+    font-size: 1.3vw;
+    line-height: 2.8vw;
+    font-family: raleway;
+    text-align: left;
+}
+
+h3{
+    font-size: 1.5vw;
+    line-height: 2.8vw;
+    font-family: raleway;
+    font-weight: bolder;
+}
+
+.ikonserie h3, .ikonserie p{
+    padding-left: 5%;
+}
+
+.ikontekst{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.ikonserie div img{
+    margin-top: -10%;
 }
