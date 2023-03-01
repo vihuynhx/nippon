@@ -5,7 +5,6 @@
 }
 
 
-
     /*---------------MAIN--------------------------------------------------------------- */
 
     .firstsection
@@ -54,6 +53,7 @@
 
     .infographic
     {
+        padding-top: 3.5vh;
         text-align: center;
     }
 
@@ -66,8 +66,35 @@
     .infographic h2
     {
         font-family: raleway;
-        font-size: 1.5vw;
+        font-size: 1.3vw;
         font-weight: normal;
+        line-height: 2.8vw;
+    }
+
+    #blomst1
+    {
+        float:right;
+        position: relative;
+        top: -85vh; 
+        width: 20%;
+    }
+
+    #blomst2
+    {
+        float:left;
+        position: relative;
+        top: -30vh; 
+        width: 20%;
+        -webkit-transform: scaleX(-1);
+    }
+
+    #graphic
+    {
+        padding-top: 5vh;
+        width: 60%;
+        margin: auto;
+        padding: auto;
+        display: block;
     }
 
 
