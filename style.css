@@ -10,6 +10,7 @@
 
     .firstsection
     {
+        height: 600px;
         position: relative;
         display: flex;
         justify-content: center;
@@ -23,7 +24,7 @@
     {
         position: absolute;
         font-family: "iskra", sans-serif;
-        top:30%;
+        top:25%;
         text-align: center;
         color: white;
         font-size: 5vw;
@@ -34,22 +35,40 @@
     {
         position: absolute;
         font-family: raleway;
-        top:80%;
+        top:70%;
         text-align: center;
         color: black;
         font-size: 1.3vw;
-        font-weight: semibold;
+        font-weight: bold;
         text-transform: uppercase;
         text-decoration: none;
         border: 2px;
         border-radius: 30px;
-        background-color: white;
         padding: 15px 32px;
         text-align: center;
-         display: inline-block;
-          margin: 4px 2px; 
-          cursor: pointer;
+        display: inline-block;
+        margin: 4px 2px; 
+        cursor: pointer;
+        background-color: white;
+    }
 
-        }
+    .infographic
+    {
+        text-align: center;
+    }
+
+    .infographic h1
+    {
+        font-family: "iskra", sans-serif;
+        font-size: 3vw;
+        text-transform: uppercase;
+    }
+    .infographic h2
+    {
+        font-family: raleway;
+        font-size: 1.5vw;
+        font-weight: normal;
+    }
+
 
 
