@@ -75,7 +75,7 @@
     {
         float:right;
         position: relative;
-        top: -85vh; 
+        top: -32vh; 
         width: 20%;
     }
 
@@ -83,7 +83,7 @@
     {
         float:left;
         position: relative;
-        top: -30vh; 
+        top: 37vh; 
         width: 20%;
         -webkit-transform: scaleX(-1);
     }
@@ -94,8 +94,60 @@
         width: 60%;
         margin: auto;
         padding: auto;
-        display: block;
+       }
+
+    .flexcontainerindex
+    {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        background-color: #EFE8E1;
+
+
     }
+
+    .flexcontainerindex div
+    {
+        width: 50%;
+        flex: 0 0 auto;
+
+    }
+
+    #imgcontainer
+    {
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+   .textcontainer
+    {
+        font-family: "iskra", sans-serif;
+        text-align: center;
+        height: 100%;
+    }
+    .textcontainer h1
+    {
+        font-size: 1.5vw;
+        text-transform: uppercase;
+    }
+
+    .textcontainer p
+    {
+        font-family: raleway;
+        font-size: 2vw;
+    }
+
+    #ikonerflex
+    {
+        margin-left: 10vw;
+        margin-right: 10vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+
 
 
 

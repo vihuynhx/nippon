@@ -1,0 +1,97 @@
+Opskrift CSS
+body 
+{
+    background-color: #bfccb4;
+    font-family: raleway;
+}
+
+#tilbage_pil
+{
+    width: 10%;
+    height: auto;
+}
+
+#tilbage_pil img
+{
+    width: 100%;
+    height: auto;
+}
+
+h1
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: iskra;
+}
+
+.opskrift
+{
+    background-color: white;
+    margin: 10%;
+    margin-top: 4%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    border-radius: 2%;
+}
+
+.opskrift_div1
+{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.opskrift_div1 div
+{
+    flex-direction: row;
+    width: 15%;
+}
+
+#opskrift_video
+{
+    width: 60%;
+    text-align: center;
+    margin-top: 7%;
+}
+
+#opskrift_video video 
+{
+    width: 100%;
+    height: auto;
+}
+
+.opskrift_div2
+{
+    display: flex;
+    margin-top: 3%;
+}
+
+.opskrift_div2 div
+{
+    flex-direction: row;
+    width: 50%;
+}
+
+.opskrift_div2 div p 
+{
+    font-weight: 600;
+}
+
+#opskrift_fremgangsmåde
+{
+    margin-left: 3%;
+    margin-top: -3%;
+    font-weight: 300;
+}
+
+#opskrift_næringsindhold 
+{
+    display: flex;
+    margin-left: 7%;
+}
+
+
+

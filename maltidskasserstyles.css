@@ -1,3 +1,108 @@
-body{
-    background-color: blue;
+*
+{
+    margin: 0;
+    padding: 0;
 }
+
+/*------------------Main----------------------------*/
+
+/*øverste billede på siden*/
+
+
+.forsidebillede{
+    width: 100%;
+    height: auto;
+}
+
+.forsidebillede img{
+    width: 100%;
+    height: auto;
+    
+}
+
+
+h1{
+    text-align: center;
+    font-size: 3vw;
+    font-family: "iskra", sans-serif;
+    text-transform: uppercase;
+    margin: 4%;
+}
+
+.kasser{
+    display: flex;
+    justify-content: center;
+}
+
+.kasser div{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.uge a
+    {
+        margin: 2%;
+        font-family: raleway;
+        color: black;
+        font-size: 1.3vw;
+        font-weight: 500;
+        text-transform: uppercase;
+        text-decoration: none;
+        border: 2px;
+        border-radius: 30px;
+        padding: 18px 32px;
+        cursor: pointer;
+        background-color: #bfccb4;
+    }
+
+    .uge{
+        text-align: center;
+        margin: 5%;
+    }
+
+    .uge a:hover{
+        filter: brightness(80%);
+    }
+
+    /*------Cards med opskrifter---------*/
+    .opskrifter{
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 300px;
+
+    }
+    
+    .tekstboks{
+    width: 350px;
+    height: 200px;
+    text-align:center;
+    background-color: blue;
+    }
+    
+    .opskrifter div h1{
+        font-size: 1.4vw;
+        line-height: 2.8vw;
+        font-family: raleway;
+        font-weight: 700;
+    }
+    
+    .opskrifter div p{
+        font-size: 1.2vw;
+    line-height: 2.8vw;
+    font-family: raleway;
+    text-align: center;
+    }
+    
+    .opskrifter img{
+        width: 100%;
+        
+        background-color: #EFE8E1;
+    }
+
+    .tid{
+        font-size: 1.2vw;
+        line-height: 2.8vw;
+        font-family: raleway;
+        font-weight: 700;
+        text-align: center;
+    }
