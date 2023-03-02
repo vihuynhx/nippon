@@ -109,3 +109,110 @@ header nav a, .dropdownbutton nav a
     { 
         text-decoration: underline;
     }
+
+
+
+
+
+    /*----------- FOOTER -------------*/
+
+footer{
+    background-color: #efe8e1;
+    width: 100%;
+    font-family: Raleway;
+}
+
+.flexcontainerFooter{
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+}
+
+.flexcontainerFooter div{
+    width: 20%;
+}
+
+.footerMenuer p{
+    font-weight: 700;
+    font-size: 1.2vw;
+}
+
+.footerMenuer li{
+    list-style-type: none;
+    margin-top: 9%;
+}
+
+.footerMenuer li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1vw;
+    
+}
+
+.footerMenuer li a:hover{
+    font-weight: 700;
+    font-size: 1.1vw;
+}
+
+.anmeldelse img{
+    max-width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.anmeldelse{
+    text-align: center;
+    line-height: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.anmeldelse #citat{
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1vw;
+    margin: auto;
+}
+
+.anmeldelse a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.85vw;
+}
+
+.socialMedia{
+    display: flex;
+}
+
+.socialMedia div{
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.socialMedia div a img{
+    max-width: 50%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.socialMedia #blueIcons a img{
+    margin-left: 50%;
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.copyright p{
+    padding-top: 1.5%;
+    padding-bottom: 2%;
+    font-size: 0.85vw;
+}
+
+
