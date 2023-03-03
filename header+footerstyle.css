@@ -116,17 +116,19 @@ footer{
     background-color: #efe8e1;
     width: 100%;
     font-family: Raleway;
+    background-color: white;
 }
 
 .flexcontainerFooter{
     display: flex;
-    padding-left: 5%;
-    padding-right: 5%;
+
     padding-top: 3%;
+    width: 100%;
 }
 
 .flexcontainerFooter div{
     width: 20%;
+    justify-content: space-between;
 }
 
 .footerMenuer p{
