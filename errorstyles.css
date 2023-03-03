@@ -11,10 +11,10 @@ h1{
     font-size: 3vw;
     font-family: "iskra", sans-serif;
     text-transform: uppercase;
-    margin: 2%;
+    margin: 1%;
 }
 
-p{
+main section p{
     text-align: center;
     font-size: 1.5vw;
     line-height: 2.8vw;
@@ -23,10 +23,11 @@ p{
 
 .billede{
     text-align: center;
-    
-    
-    margin: 5%;
-    
+    margin: 3%;
+}
+
+.billede img{
+    width: 22%;
 }
 
 .tilbage a
@@ -39,8 +40,8 @@ p{
         text-transform: uppercase;
         text-decoration: none;
         border: 2px;
-        border-radius: 30px;
-        padding: 22px 32px;
+        border-radius: 50px;
+        padding: 2% 2%;
         cursor: pointer;
         background-color: #bfccb4;
     }
