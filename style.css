@@ -4,7 +4,6 @@
     padding: 0;
 }
 
-
     /*---------------MAIN--------------------------------------------------------------- */
 
     .firstsection
@@ -51,9 +50,34 @@
         background-color: white;
     }
 
+    .lasemere, .nippon-sec div a, .japancontainer div a, .textcontainer a
+    {
+        font-family: raleway;
+        text-align: center;
+        color: black;
+        font-size: 1.2vw;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+        border: 2px;
+        border-radius: 30px;
+        margin: 2%; 
+        cursor: pointer;
+        background-color: #bfccb4;
+        text-align: center;
+        display: inline-block;
+        padding: 1.5%;
+    }
+
+    #læsmere-hvid
+    {
+        background-color: white;
+    }
+
     .infographic
     {
         padding-top: 3.5vh;
+        padding-bottom: 3.5vh;
         text-align: center;
     }
 
@@ -103,7 +127,6 @@
         flex-wrap: wrap;
         background-color: #EFE8E1;
 
-
     }
 
     .flexcontainerindex div
@@ -120,31 +143,118 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
-   .textcontainer
+
+    .ikonerfilter
     {
-        font-family: "iskra", sans-serif;
-        text-align: center;
-        height: 100%;
-    }
-    .textcontainer h1
-    {
-        font-size: 1.5vw;
-        text-transform: uppercase;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
 
-    .textcontainer p
+   .textcontainer
+    {
+        text-align: center;
+        height: 100%;
+        margin-top: 5%;
+
+
+    }
+    .textcontainer h1, .japancontainer h1,  .nippon-sec div h1
+    {
+        font-size: 2.5vw;
+        text-transform: uppercase;
+        font-family: "iskra", sans-serif;
+
+    }
+
+    .textcontainer p, .japancontainer p,  .nippon-sec div p
     {
         font-family: raleway;
-        font-size: 2vw;
+        font-size: 1.5vw;
     }
 
     #ikonerflex
     {
         margin-left: 10vw;
         margin-right: 10vw;
+        margin-top: 3%;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        font-family: raleway;
+        font-size: 1.5vw;
+    }
+
+    #ikonerflex div
+    {
+        flex-direction: row;
+    }
+
+    #ikonerflex div p
+    {
+        text-align: center;
+    }
+
+    .japancontainer
+    {
+        background-color: #EFE8E1;
+        display: flex;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .japancontainer div
+    {
+        flex-direction: row;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .japanimg img
+    {
+        width: 50%;
+        height: auto;
+    }
+
+    #nippa
+    {
+        background-color: white;
+    }
+
+    #nippa img
+    {
+        width: 80%;
+    }
+
+    .nippon-sec
+    {
+        background-color: #EFE8E1;
+    }
+
+    .nippon-sec div
+    {
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    #blomst1-nippon
+    {
+        float:right;
+        position: relative;
+        top: -40vh; 
+        width: 20%;
+    }
+
+    #blomst2-nippon
+    {
+        float:left;
+        position: relative;
+        top: -40vh; 
+        width: 20%;
+        -webkit-transform: scaleX(-1);
+
     }
 
 

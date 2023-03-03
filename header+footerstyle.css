@@ -3,115 +3,111 @@
     padding: 0;
 }
 
-
-/*---------------HEADER--------------------------------------------------------------- */
-
-header 
+header
 {
+    display:flex;
+    height: 10.1vh;
     width: 100%;
     font-family: 'Raleway', sans-serif;
-    color: black;
-    text-transform: uppercase;
     font-size: 1.3vw;
+    text-transform: uppercase;
     z-index: 1;
-}
-header img /*LOGO*/
-{ 
-    position: absolute;
-    left: 0; 
-    width: 8%;
+
 }
 
-.flexcontainerheader 
+header nav a
 {
-    display: flex;
+    text-decoration: none;
+    color: black;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+header nav
+{
     width: 100%;
 }
-
-.flexcontainerheader div
+header nav div
 {
-   justify-content: center;
+padding: 2%;
 }
-
-
-header nav a, .dropdownbutton nav a
-{
-    font-family: 'Raleway', sans-serif;
-    color: black;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 1.3vw;
-}
-
-.headernav, .dropdownbutton
-{
-    margin-top: 2vh;
-}
-
 .buttonlogin
 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.3vw;
     border:2px;
     color:black;
-    padding: 13px 30px;
+    padding: 1.3vh 3vh;
     text-align: center;
     text-decoration: none;
-    /*display: inline-block;*/
     cursor: pointer;
     border-style: solid;
     border-color: #e1aec9;
     border-radius: 20px;
-    /*    margin: 4px 2px;*/
+    float: right;
+    margin-top: 1%;
+    margin-right: 1.5%;
+
+
 }
-  /* ----------Dropdown------https://www.w3schools.com/howto/howto_css_dropdown.asp---- */
 
-    .dropdownbutton
-    {
-        color: black;
-        font-family: 'Raleway', sans-serif;
-        text-transform: uppercase;
-        cursor: pointer;
-        font-size: 1.3vw;
-    } 
+header img
+{
+    width: 8%;
+    padding-left: 1%;
+}
 
-    .dropdown
-    {
-        display: inline-block;
-        text-align: center;
-    }
-    
-    .dropdown-content
-    {
-        display: none;
-        position: absolute;
-    }
-    
-    .dropdown-content a
-    {    
-        text-decoration: none;
-        display: block;
-        font-size: 1.3vw;
-        padding: 1.4vh 1.2vh;
-    }
-  
-    .dropdown-content a:hover
-    {
-        background-color:  #e1aec9;;
-    }
+/*DROPDOWN*/
 
-    .dropdown:hover .dropdown-content 
-    {
-        display: block; 
-    }
+.dropdownbutton
+{
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 1.3vw;
+    display:inline-block; 
+    white-space: nowrap;
 
-    .dropdown:hover .dropdownbutton, header nav a:hover
-    { 
-        text-decoration: underline;
-    }
+} 
 
+.dropdown
+{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    width: auto;
+}
 
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    width:100%;   
 
+}
+
+.dropdown-content a
+{    
+    text-decoration: none;
+    display: block;
+    font-size: 1.2vw;
+    padding: 1.4vh 1.2vh;
+}
+
+.dropdown-content a:hover
+{
+    background-color:  #e1aec9;;
+}
+
+.dropdown:hover .dropdown-content 
+{
+    display: block; 
+}
+
+.dropdown:hover .dropdownbutton, header nav a:hover
+{ 
+    text-decoration: underline;
+}
 
 
     /*----------- FOOTER -------------*/

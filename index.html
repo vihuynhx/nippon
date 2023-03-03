@@ -13,47 +13,33 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/opz7fdq.css"> <!--Iskra font-->
-
-    
-
-
 </head>
 <body>
     <header>
-        <div class="flexcontainerheader">
-            <div>
-                <a href="index.html"><img src="images/logo(200px).png" alt="logo"></a>
-            </div>
+        <img src="images/logonippon.png" alt="logo">
 
-            <div>
-                <nav>
-                <a href="maltidskasser.html">Måltidskasser</a>
 
-                    <div class="dropdown">   <!----DROPDOWN BOKS------>
-                        <div class="dropdownbutton">Nippon<i class="fa-solid fa-angle-down"></i></div>
-                        <div class="dropdown-content">
-                            <a href="omnippon.html">Om nippon</a>
-                            <a href="#">Nippa</a>
-                            <a href="#">FAQ</a>
-                        </div>
-                    </div>
+        <nav>
+            <a href="maltidskasser.html">Måltidskasser</a>
 
-                <a href="leverandører.html">Det grønne valg</a>
                 <div class="dropdown">   <!----DROPDOWN BOKS------>
-                    <div class="dropdownbutton">Det grønne valg<i class="fa-solid fa-angle-down"></i></div>
+                    <div class="dropdownbutton">Nippon <i class="fa-solid fa-angle-down fa-sm"></i></div>
                     <div class="dropdown-content">
-                        <a href="#">Leverandører</a>
-                        <a href="#">Råvarer</a>
+                        <a href="omnippon.html">Om nippon</a>
+                        <a href="#">Pandaen Nippa</a>
+                        <a href="#">FAQ</a>
                     </div>
                 </div>
-
-                <div>
-                    <a href="tilmeld.html" class="buttonlogin">log ind | tilmeld</a>
+            <div class="dropdown">   <!----DROPDOWN BOKS------>
+                <div class="dropdownbutton">Det grønne valg <i class="fa-solid fa-angle-down fa-sm"></i></div>
+                <div class="dropdown-content">
+                    <a href="#">Leverandører</a>
+                    <a href="#">Råvarer</a>
                 </div>
-
-                </nav>
             </div>
-        </div>
+
+                <a href="tilmeld.html" class="buttonlogin">log ind | tilmeld</a>
+        </nav>
     </header>
 
 
@@ -61,7 +47,7 @@
         <section class="firstsection">
             <img src="images/background.png" alt="food">
             <h1>Nippon <br> din japanske måltidskasse</h1>
-            <a href="maltidskasser.html" class="lasemere">læs mere</a>
+            <a href="maltidskasser.html">læs mere</a>
         </section>
 
         <section class="infographic">
@@ -85,8 +71,9 @@
             <div class="textcontainer">
                 <h1>
                     100% friske råvarer
-                </h1>
+                </h1> <br>
                 <p>Vores leverandører sørger altid for, at du får <br> friske ingredienser i din måltidskasse.</p>
+                <a href="#" id="læsmere-hvid">læs mere</a>
             </div>
         </section>
         
@@ -98,15 +85,46 @@
             </div>
 
             <div id="ikonerflex">
-                <img src="images/SpiseSundtIkon.png" alt="ikon1">
-                <img src="images/VeganskIkon.png" alt="ikon2">
-                <img src="images/BørnevenligtIkon.png" alt="ikon3">
-                <img src="images/LuksusudgavenIkon.png" alt="ikon4">
+                <div><img src="images/SpiseSundtIkon.png" alt="ikon1"> <p> Spis sundt</p></div>
+                <div><img src="images/VeganskIkon.png" alt="ikon2"> <p>Vegansk</p></div>
+                <div><img src="images/BørnevenligtIkon.png" alt="ikon3"> <p>Børnevenligt</p></div>
+                <div><img src="images/LuksusudgavenIkon.png" alt="ikon4"> <p>Luksusudgaven</p></div>
             </div>
         </section>
+
+        <section class="japancontainer">
+            <div class="japanimg">
+                <img src="images/tempel.png" alt="tempel">
+            </div>
+            <div>
+                <h1>Japansk cuisine i dit køkken</h1> <br>
+                <p>Tag på opdagelse i det japanske køkken, bliv inspireret og find din nye favoritter.</p>
+                <a href="#" id="læsmere-hvid">læs mere</a>
+            </div>
+        </section>
+
+        <section class="japancontainer" id="nippa">
+            <div>
+                <h1>Tag madglade børn med i køkkennet</h1> <br>
+                <p>Pandaen Nippa har gjort opskrifterne så simple, at børnene sagtens kan give en hjælpende hånd eller to i køkkenet. </p>
+                <a href="#" class="lasemere">læs mere</a>
+            </div>
+            <div class="japanimg">
+                <img src="images/nippa.png" alt="nippa">
+            </div>
+        </section>
+
+        <section class="nippon-sec">
+            <div>
+                <h1>Nippon</h1> <br>
+                <p>Nippon gør din hver dag både mere interessant og nemmere. <br>
+                    Her kan du skræddersy din helt egen måltidskasse, tilpasset efter dit behov. Retterne er med inspiration fra det Japanske køkken. </p>
+                <a href="#" id="læsmere-hvid">læs mere</a>
+            </div>
+            <img id="blomst1-nippon" src="images/blomst.png" alt="blomst">
+            <img id="blomst2-nippon" src="images/blomst.png" alt="blomst">
+        </section>
     </main>
-
-
         <!------------------ FOOTER ------------------>
 
         <footer>
